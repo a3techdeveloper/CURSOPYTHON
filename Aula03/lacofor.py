@@ -35,4 +35,3 @@ for numero in numeros:
         continue #continua a contagem
     print('Número: '+str(numero)) # imprime quem está fora da condição
 print('\n')
-
