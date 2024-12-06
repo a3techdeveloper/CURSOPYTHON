@@ -44,3 +44,19 @@ calculos()
     valor_se_falso
     3- Imprime: Nome do aluno e a sua situação de acordo com a media que obteve
 """
+nome = input('Nome do(a) aluno(a): ')
+n1   = float(input('Digite a Nota1: '))
+n2   = float(input('Digite a Nota2: '))
+n3   = float(input('Digite a Nota3: '))
+n4   = float(input('Digite a Nota4: '))
+
+def calculaMedia(): 
+    media = (n1 + n2 + n3 + n4) / 4
+    if media >= 6:
+        resp = 'APROVADO(A)'
+    else:
+        resp = 'REPROVADO(A)'
+    print(nome+' foi '+resp+' com a média '+str(media))
+
+#chamar a função
+calculaMedia()
