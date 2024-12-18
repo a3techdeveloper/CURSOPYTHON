@@ -1,0 +1,18 @@
+Criar uma classe-Pai (Super) chamada Conta
+Atributos:
+- Agencia (numero)
+- Numero Conta (numero)
+- Titular (string)
+- Saldo (double)
+- Data Abertura (string)
+- Ativada
+
+Métodos:
+- Sacar
+- Depositar
+- Imprimir Extrato
+- Transferir
+
+Criar duas classes-Filha (Corrente e Poupança)
+Atributos:
+- Limite
